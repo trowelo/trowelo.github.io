@@ -1,2 +1,1 @@
-# coprlp
-Construction Project Landing Page
+# Landing Page
