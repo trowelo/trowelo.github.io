@@ -18,20 +18,34 @@
         <style type="text/css">
 
             .masthead.segment {
-                min-height: 800px;
+                min-height: 700px;
                 padding: 1em 0em;
-                background-image: url("assets/images/bg3.jpg");
+                background-image: url("assets/images/bg5.jpg");
             }
 
             .masthead h1.ui.header {
-                margin-top: 2em;
+                color: yellow;
+                background-color: orangered;
+                margin-top: 0.5em;
                 margin-bottom: 0em;
-                font-size: 7em;
+                font-size: 10em;
                 font-weight: normal;
             }
             .masthead h2 {
+                color: white;
                 font-size: 2em;
+                font-weight: bold;
+            }
+
+            .masthead h3 {
+                color: white;
+                font-size: 1.5em;
                 font-weight: normal;
+            }
+
+            .masthead div.ui.input {
+                margin-top: 2em;
+                margin-bottom: 2em;
             }
 
             .ui.vertical.stripe {
@@ -69,36 +83,44 @@
             @media only screen and (max-width: 700px) {
                 .masthead.segment {
                     min-height: 350px;
+                    //background-image: url("assets/images/bg.jpg");
+                    background-image: url("assets/images/bg-mobile1.jpg");
                 }
                 .masthead h1.ui.header {
-                    font-size: 2em;
-                    margin-top: 1.5em;
+                    font-size: 3em;
+                    margin-top: 0.5em;
+                }
+                .masthead div.ui.input {
+                    margin-top: 1em;
+                    margin-bottom: 1em;
                 }
                 .masthead h2 {
                     margin-top: 0.5em;
                     font-size: 1.5em;
                 }
+                .masthead h3 {
+                    color: white;
+                    font-size: 1em;
+                    font-weight: normal;
+                }
+                .ui.vertical.stripe {
+                    padding: 4em 0em;
+                }
             }
         </style>
-
-
-        <script>
-        </script>
-
     </head>
     <body>
         <!-- Page Contents -->
-        <div class="ui masthead   center aligned  segment">
-            <div class="ui text container">
+        <div class="ui masthead center aligned  segment">
+            <div class="ui  text container">
                 <h1 class="ui inverted header">
                     Trowelo
                 </h1>
-                <h2 class="ui inverted header">Construction automation software for the busy contractor.</h2>
-                <br>
-                <div class="ui fluid large input">
-                    <input type="text" value="Your e-mail">
-                    <div class="ui large red  button">Subscribe <i class="right arrow icon"></i></div>
-                    
+                <h2>Construction automation software for the <u>busy</u> contractor.</h2>
+                <h3>We are launching <u>soon</u>, join as early adopter and learn why you should get exited</h3>
+                <div class="ui large input">
+                    <input type="text" value="Your email to join">
+                    <div class="ui large red icon action button"> <i class="large share icon"></i></div>
                 </div>
             </div>
         </div>
@@ -111,11 +133,6 @@
                         <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
                         <h3 class="ui header">We Make Bananas That Can Dance</h3>
                         <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="center aligned column">
-                        <a class="ui huge button">Check Them Out</a>
                     </div>
                 </div>
             </div>
