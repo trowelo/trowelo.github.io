@@ -68,17 +68,29 @@
             .ui.vertical.stripe .horizontal.divider {
                 margin: 3em 0em;
             }
-            a { 
-                background-color: orange;
+
+            .quote.stripe.segment {
+                padding: 0em;
+            }
+            .quote.stripe.segment .grid .column {
+                padding-top: 5em;
+                padding-bottom: 5em;
             }
 
-            
+            .footer.segment {
+                padding: 5em 0em;
+            }
+
+            .secondary.pointing.menu .toc.item {
+                display: none;
+            }
+
 
             @media only screen and (max-width: 700px) {
                 .masthead.segment {
                     min-height: 350px;
-                    //background-image: url("assets/images/bg.jpg");
-                    background-image: url("assets/images/bg-mobile1.jpg");
+                    background:black;
+                    //background-image: url("assets/images/bg-mobile1.jpg");
                 }
                 .masthead h1.ui.header {
                     font-size: 3em;
@@ -100,6 +112,9 @@
                 .ui.vertical.stripe {
                     padding: 4em 0em;
                 }
+/*                .ui.vertical.stripe h3.i{
+                    visibility: hidden;
+                }*/
             }
         </style>
     </head>
@@ -112,65 +127,59 @@
                 </h1>
                 <h2>Construction automation software for the <u>busy</u> contractor.</h2>
                 <h3>We are launching <u>soon</u>, join as an early adopter and learn below why you will love Trowelo.</h3>
-                <div class="ui large input">
+                <div class="ui  input">
                     <input type="text" value="Join with your email">
-                    <div class="ui large red icon action button"> <i class="large share icon"></i></div>
+                    <div class="ui large red icon action button"> <i class="ui share icon"></i></div>
                 </div>
                 <br>
-                <a>Contact us</a>
+                <a class="ui blue action labeled icon button"><i class="mail outline icon"></i>Contact us</a>
             </div>
         </div>
 
-        <div class="ui vertical stripe  segment">
+        <div class="ui vertical stripe segment">
             <div class="ui middle aligned stackable grid container">
                 <div class="row">
                     <div class=" wide column">
 
-                        <h3 class="ui header">Are you still running your construction projects the old way?</h3>
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Still running your construction projects the old way?</div></h3>
                         <p>
                             Many smaller contractors still do not use any information technology in managing their projects, 
-                            which puts them at disadvantage and leads to wasted time and money. <u>Turn Trowelo in your unfair competitive advantage!</u>
+                            which puts them at significant disadvantage and leads to wasted time and money. <u>Turn Trowelo in your unfair competitive advantage!</u>
                         </p>
 
-                        <h3 class="ui header">Are you frustrated with the tools you have tried?</h3>
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Frustrated with other tools you have tried before?</div></h3>
                         <p>
                             We hear you! Most of the construction automation tools out there are needlessly complex, outdated and only get in the way. 
                             Some even require you to take classes before using them!
                             Trowelo is designed with <u>utmost simplicity and efficiency</u> in mind, so you can focus on your projects.
                         </p>
 
-                        <h3 class="ui header">Is the price for construction automation software too high and obscure?</h3>
-                        <p>
-                            Using construction automation software should not brake the bank! Trowelo's simple and transparent pricing is <u>very affordable</u>, starting with a  30-day FREE trial period.
-                        </p>
-
-                        <h3 class="ui header">Installing software and upgrades scares you?</h3>
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Installing software and upgrades scares you?</div></h3>
                         <p>
                             Fear not! Trowelo runs in the cloud. There is nothing to install or upgrade, it is always available when you need it and your projects data is safe. 
                         </p>
 
-                        <h3 class="ui header">You are mobile and need to have your data in the office, out in the field or at home?</h3>
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>You are mobile and need your data in the office, out in the field or at home?</div></h3>
                         <p>
-                            Trowelo is everywhere - it works with you office computer, mobile phone or tablet!
+                            Trowelo is works everywhere - your office computer, mobile phone or tablet. You only need a browser!
                         </p>
 
-                        <h3 class="ui header">Need your project data in MS Excel, MS Project, Quickbooks?</h3>
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Need your project data in MS Excel, MS Project, Quickbooks?</div></h3>
                         <p>
                             Trowelo integrates with them and more!
                         </p>
 
+                        <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Price for construction automation software too high and obscure?</div></h3>
+                        <p>
+                            Using construction automation software should not brake the bank! Trowelo's simple and transparent pricing is <u>very affordable</u>, starting with a  30-day FREE trial period.
+                        </p>
+
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="ui vertical stripe  segment">
-            <div class="ui middle aligned stackable grid container">
                 <div class="row">
                     <div class=" wide column">
-                        <h3>Our Pricing plans</h3>
-                        <p>All plans are monthly and include a 30-day FREE trial period and support.<p>
-                        <table class="ui unstackable compact table">
+                        <p class="ui red   label">Our Pricing</p>
+                        <table class="ui unstackable condensed table">
                             <thead>
                                 <tr>
                                     <th>Feature</th>
@@ -231,24 +240,25 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <i>All plans are monthly and include <span class="ui blue label">30-day FREE</span> trial period and support.</i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="ui vertical inverted  stripe segment">
+        <div class="ui vertical footer  inverted  segment">
             <div class="ui middle aligned stackable grid container">
                 <div class="row">
                     <div class=" wide column">
                         <h3 class="ui inverted header">Already excited?</h3>
-                        <p>Then join our early adopters program with your email for additional benefits and discounts!</p>
-                        <div class="ui large input">
+                        <p>Then join our early adopters program with your email for <u>additional benefits and discounts</u>!</p>
+                        <div class="ui  input">
                             <input type="text" value="Your email">
-                            <div class="ui large red icon action button"> <i class="large share icon"></i></div>
+                            <div class="ui  red icon action button"> <i class="large share icon"></i></div>
                         </div>
-                        <h4 class="ui inverted header">Headquarters:</h4>
-                        <p>Trowelo.Com - Irvine, California | United States</p>
-                        <a>Contact us</a>
+                        <br>
+                        <h4>Trowelo.Com - Irvine, California, USA</h4>
+                        <a class="ui small blue action labeled icon button"><i class="mail outline icon"></i>Contact us</a>
                     </div>
                 </div>
             </div>
