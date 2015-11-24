@@ -10,23 +10,36 @@
         <meta name="author" content="peruncs.com">
 
         <title>Trowelo</title>
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/semantic-ui/2.1.4/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/semantic-ui/2.1.6/semantic.min.css">
         <script src="//cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
-        <script src="//cdn.jsdelivr.net/semantic-ui/2.1.4/semantic.min.js"></script>
+        <script src="//cdn.jsdelivr.net/semantic-ui/2.1.6/semantic.min.js"></script>
 
+        <!-- Google analytics-->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-70502152-1', 'auto');
+            ga('send', 'pageview');
+        </script>
 
         <style type="text/css">
-
             .masthead.segment {
-                min-height: 700px;
-                padding: 1em 0em;
+                min-height: 500px;
+                padding: 0em 0em;
                 background-image: url("assets/images/bg5.jpg");
             }
-
             .masthead h1.ui.header {
                 color: lightskyblue;
-                //background-color: orangered;
-                margin-top: 0.5em;
+                margin-top: 0.0em;
                 margin-bottom: 0em;
                 font-size: 10em;
                 font-weight: bold;
@@ -36,22 +49,18 @@
                 font-size: 2em;
                 font-weight: bold;
             }
-
             .masthead h3 {
                 color: white;
                 font-size: 1.5em;
                 font-weight: normal;
             }
-
             .masthead div.ui.input {
                 margin-top: 2em;
                 margin-bottom: 2em;
             }
-
             .ui.vertical.stripe {
                 padding: 4em 0em;
             }
-
             .ui.vertical.stripe h3 {
                 font-size: 2em;
             }
@@ -68,7 +77,6 @@
             .ui.vertical.stripe .horizontal.divider {
                 margin: 3em 0em;
             }
-
             .quote.stripe.segment {
                 padding: 0em;
             }
@@ -76,11 +84,9 @@
                 padding-top: 5em;
                 padding-bottom: 5em;
             }
-
             .footer.segment {
                 padding: 5em 0em;
             }
-
             .secondary.pointing.menu .toc.item {
                 display: none;
             }
@@ -90,7 +96,6 @@
                 .masthead.segment {
                     min-height: 350px;
                     background:black;
-                    //background-image: url("assets/images/bg-mobile1.jpg");
                 }
                 .masthead h1.ui.header {
                     font-size: 3em;
@@ -110,20 +115,13 @@
                     font-size: 1em;
                     font-weight: normal;
                 }
-
                 .ui.vertical.stripe {
                     padding: 1em 1em;
                 }
-
                 .ui.vertical.stripe h3 {
                     font-size: 1.3em;
                     font-weight: bold;
                 }
-
-                /*                .ui.vertical.stripe h3 i{
-                                    display: none;
-                                }*/
-
                 .ui.vertical.stripe p {
                     font-size: 1em;
                     font-weight: normal;
@@ -132,21 +130,39 @@
         </style>
     </head>
     <body>
+
         <!-- Page Contents -->
-        <div class="ui masthead center aligned  segment">
+        <div class="ui masthead center aligned  segment">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
             <div class="ui  text container">
-                <h1 class="ui  header">
+                <h1 class="ui header">
                     Trowelo
                 </h1>
-                <h2>Construction automation software for the <u>busy</u> contractor builder. In the cloud.</h2>
-                <h3>We are launching Trowelo <u>soon</u>. Join as an early adopter and learn below why <u>you will love Trowelo</u>.</h3>
-                <div class="ui fluid input">
-                    <input type="text" placeholder="Your business email">
-                    <div class="ui large red icon action button">Join <i class="ui share icon"></i></div>
+                <h2>Affordable construction automation software for the <u>busy</u> contractor builder. In the cloud.</h2>
+                <div class="ui basic segment">
+                    <h3>We are launching Trowelo <u>soon</u>, join as an early adopter.</h3>
+                    <form class="ui small compact registration form" action="http://sendy.peruncs.com/subscribe" method="POST" accept-charset="utf-8">
+                        <div class="fields">
+                            <div class="five wide field error">
+                                <input type="text" name="name"  placeholder="Name"/>
+                            </div>
+                            <div class="five wide field error">
+                                <input type="text" name="email"  placeholder="Email"/>
+                            </div>
+                            <div class="one wide field">
+                                <!--<div class="ui red submit button" >Join</div>-->
+                                <input class="ui red submit button" type="submit" value="Join" />
+                            </div>
+
+                            <div class="five wide field">
+                                <a class="ui blue action  button">Email us</a>
+                            </div>
+                            <input type="hidden" name="list" value="yXXiKCXaamWknWdKMgt0CA"/>
+                        </div>
+                    </form>
                 </div>
-                <a class="ui blue action labeled icon button"><i class="mail outline icon"></i>Contact us</a>
             </div>
         </div>
+
 
         <div class="ui vertical stripe segment">
             <div class="ui middle aligned stackable grid container">
@@ -159,7 +175,7 @@
                         <p>
                             Many smaller contractor builders still do not use information technology enough in managing their projects. 
                             This puts them at a significant disadvantage and leads to poor work organization, wasted time, materials and money. 
-                        <u>Turn Trowelo into your unfair competitive advantage!</u>
+                            <u>Turn Trowelo into your unfair competitive advantage!</u>
                         </p>
 
                         <h3 class="ui header"><i class="green checkmark icon"></i> <div class='content'>Frustrated with other similar tools you tried before?</div></h3>
@@ -188,7 +204,7 @@
                         <p>
                             Trowelo comes with the most needed features first, while we plan to add future enhancements based on your needs and requests.
                         </p>
-                        
+
                         <div class="ui large bulleted list">
                             <div class="item">Executive dashboard</div>
                             <div class="item">Estimation</div>
@@ -260,63 +276,58 @@
                                 </tr>
                             </tbody>
                         </table>
-
-                        <!--                        <div class="ui equal width stackable internally celled grid">
-                                                    <div class="center aligned row">
-                                                        <div class="column">
-                                                            <div class="ui list">
-                                                                <div class="ui mini statistic">
-                                                                    <div class="value">Basic</div>
-                                                                    <div class="label">$XX/mo</div>
-                                                                </div>
-                                                                <li> <i class="green check icon"></i>Feature</li>
-                                                            </div>
-                                                        </div>
-                                                        <div class="column">
-                                                            <div class="ui list">
-                                                                <div class="ui mini statistic">
-                                                                    <div class="value">Basic</div>
-                                                                    <div class="label">$XX/mo</div>
-                                                                </div>
-                                                                <li> <i class="green check icon"></i>Feature</li>
-                                                            </div>
-                                                        </div>
-                                                        <div class="column">
-                                                            <div class="ui list">
-                                                                <div class="ui mini statistic">
-                                                                    <div class="value">Basic</div>
-                                                                    <div class="label">$XX/mo</div>
-                                                                </div>
-                                                                <li> <i class="green check icon"></i>Feature</li>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>-->
                     </div>
                 </div>
-
             </div>
         </div>
 
-        <div class="ui vertical footer  inverted  segment">
+        <div class="ui vertical footer inverted  segment">
             <div class="ui middle aligned stackable grid container">
                 <div class="row">
-                    <div class=" wide column">
+                    <div class="wide column">
                         <h3 class="ui inverted header">Excited already?</h3>
                         <p>Then join our early adopters program with your email for <u>additional benefits and discounts</u>!</p>
-                        <div class="ui  input">
-                            <input type="text" placeholder="Your bussines email">
-                            <div class="ui red icon action button"> <i class="large share icon"></i></div>
-                        </div>
+                        <form class="ui small compact registration form" action="http://sendy.peruncs.com/subscribe" method="POST" accept-charset="utf-8">
+                            <div class="fields">
+                                <div class="five wide field error">
+                                    <input type="text" name="name"  placeholder="Name"/>
+                                </div>
+                                <div class="five wide field error">
+                                    <input type="text" name="email"  placeholder="Email"/>
+                                </div>
+                                <div class="one wide field">
+                                    <!--<div class="ui red submit button" >Join</div>-->
+                                    <input class="ui red submit button" type="submit" value="Join" />
+                                </div>
+
+                                <div class="five wide field">
+                                    <a class="ui blue action  button">Email us</a>
+                                </div>
+                                <input type="hidden" name="list" value="yXXiKCXaamWknWdKMgt0CA"/>
+                            </div>
+                        </form>
                         <h3>Trowelo.Com &copy; 2015</h3>
-                        <p><i>A product of <a href='http://peruncs.com'>Perun Consulting Services, Inc</a>
-                                <br>Irvine, California, USA</i></p>
-                        <a class="ui small blue action labeled icon button"><i class="mail outline icon"></i>Contact us</a>
+                        <p>     
+                            <i>A product of <a href='http://peruncs.com'>Perun Consulting Services, Inc</a>
+                                <br>
+                                Irvine, California, USA
+                            </i>
+                        </p>
+                        <a class="ui small blue action labeled icon button"><i class="mail outline icon"></i>Email us</a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <script>
+            $('.ui.form')
+                    .form({
+                        fields: {
+                            name: 'empty',
+                            email: 'email'
+                        }
+                    })
+            ;
+        </script>
     </body>
 
 </html>
